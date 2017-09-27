@@ -52,9 +52,22 @@ namespace CommonUtils
                 return bytes;
             }
         }
+        /// <summary>
+        /// generate random string using system random generator
+        /// </summary>
+        /// <returns>returns string 16 bytes length </returns>
         public static string GetRandomString()
         {
             return BitConverter.ToString(GetRandomBytes()).Replace("-", "");
+        }
+        /// <summary>
+        /// generate random string of 128 bytes using system random generator and hash it
+        /// </summary>
+        /// <returns>returns SHA256 hashed random string </returns>
+        public static string GetRandomBlakeHashed()
+        {
+            byte[] data = Crypto.GetSha256(GetRandomBytes(1024));
+            return BitConverter.ToString(data);
         }
         public static string SubstringLength(this string value,int length)
         {

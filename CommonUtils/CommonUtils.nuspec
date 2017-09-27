@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>Standard.CommonUtils</id>
-    <version>0.0.1.3</version>
+    <version>0.0.1.4</version>
     <title>Common Utils</title>
     <authors>Gregor Spagnolo</authors>
     <owners>Gregor Spagnolo</owners>
-    <licenseUrl>https://github.com/GregorSpagnolo/PortableHelpers/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/GregorSpagnolo/PortableHelpers</projectUrl>
+    <licenseUrl>https://github.com/GregorSpagnolo/CommonUtils/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/GregorSpagnolo/CommonUtils</projectUrl>
     <iconUrl>https://sitebackup.blob.core.windows.net/icons/NuGetPackageManager.2.5.0.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Helpers and converters for Windows Store, Windows Phone every day usage</description>
