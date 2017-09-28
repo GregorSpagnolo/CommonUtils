@@ -64,7 +64,7 @@ namespace CommonUtils
         /// generate random string of 128 bytes using system random generator and hash it
         /// </summary>
         /// <returns>returns SHA256 hashed random string </returns>
-        public static string GetRandomBlakeHashed()
+        public static string GetRandomSHA256Hashed()
         {
             byte[] data = Crypto.GetSha256(GetRandomBytes(1024));
             return BitConverter.ToString(data);
